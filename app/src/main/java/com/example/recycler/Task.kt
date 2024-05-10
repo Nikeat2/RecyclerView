@@ -1,4 +1,6 @@
 package com.example.recycler
 
-class Task {
-}
+data class Task(
+    var description: String,
+    var isChecked: Boolean
+)
